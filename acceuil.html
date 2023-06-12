@@ -2,30 +2,40 @@
 <html>
   <head>
     <title>darek web</title>
+    <!-- relation css externe -->
+    <link rel="stylesheet" href="acceuil.css" />
+    <style>
+      .titre {
+        color: red;
+      }
+    </style>
   </head>
   <body>
-    <!--header-->
+    <h1>hello</h1>
+    header
+
     <header style="border-style: solid">
-      <h1><header</h1>
-      <img
-        src="https://img.freepik.com/icones-gratuites/grille-terre-planete-cercle_318-38373.jpg"
-        alt="image not found"
-        style="width: 5%"
-        ;
-      />"
+      <h1 class="titre"><header</h1>
+      <a href=""
+        ><img
+          src="https://img.freepik.com/icones-gratuites/grille-terre-planete-cercle_318-38373.jpg"
+          alt="image not found"
+          style="width: 5%"
+          ;
+      /></a>
       <nav>
-        <ul>
-          <li><a href="">home</a></li>
-          <li><a href="">about</a></li>
-          <li><a href="">contact</a></li>
+        <ul style="border-style: double">
+          <li><a href="acceuil.html">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#contact">contact</a></li>
         </ul>
       </nav>
     </header>
     <!--main-->
     <main style="border-style: solid">
-      <h1>main</h1>
+      <h1 class="titre">main</h1>
       <dl>
-        <dt>about</dt>
+        <dt id="about">about</dt>
         <dd>
           <ul>
             <li>name : salma</li>
@@ -48,9 +58,9 @@
     </main>
     <!--footer-->
     <footer style="border-style: solid">
-      <h1>footer</h1>
-      <h2>contact</h2>
-      <form action="welcom.html">
+      <h1 class="titre">footer</h1>
+      <h2 id="contact">contact</h2>
+      <form action="welcome1.html">
         <table>
           <tr>
             <td><label>name</label></td>
